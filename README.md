@@ -3,6 +3,8 @@ Run the command:
 `git add build && git commit -m "Initial dist subtree commit"`
 `git subtree push --prefix build origin gh-pages`
 
+`git push origin `git subtree split --prefix build main`:gh-pages --force`
+
 ## Saving these for later
 
 https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd  
