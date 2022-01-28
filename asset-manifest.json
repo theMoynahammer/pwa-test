@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.6cb05b6d.css",
-    "main.js": "/static/js/main.780285a8.js",
+    "main.js": "/static/js/main.f126cd00.js",
     "static/js/377.1614e686.chunk.js": "/static/js/377.1614e686.chunk.js",
     "static/media/connor-circle.png": "/static/media/connor-circle.72e0d1c5b0b0c48706f0.png",
+    "static/media/box-logo-new1.png": "/static/media/box-logo-new1.28450bfe39f1e7831346.png",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.6cb05b6d.css.map": "/static/css/main.6cb05b6d.css.map",
-    "main.780285a8.js.map": "/static/js/main.780285a8.js.map",
+    "main.f126cd00.js.map": "/static/js/main.f126cd00.js.map",
     "377.1614e686.chunk.js.map": "/static/js/377.1614e686.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cb05b6d.css",
-    "static/js/main.780285a8.js"
+    "static/js/main.f126cd00.js"
   ]
 }
