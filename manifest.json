@@ -1,6 +1,6 @@
 {
-  "short_name": "TBG",
-  "name": "The Box Game",
+  "short_name": "Connor's PWA",
+  "name": "Connor's PWA",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "box-logo-new1.png",
+      "src": "connor-circle192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
