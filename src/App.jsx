@@ -32,7 +32,7 @@ function App() {
         }`}
         alt="logo"
       />
-      <h3>Placeholder for the Box Game PWA.</h3>
+      <h3>Placeholder for the Box Game PWA. Test change.</h3>
       <h4>Here are some axoltl facts. Click my face for more.</h4>
       {factData && factData.facts}
       <br />
