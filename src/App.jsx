@@ -1,4 +1,5 @@
 import logo from "./connor-circle.png";
+import boxLogo from "./box-logo-new1.png";
 import "./App.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -21,6 +22,15 @@ function App() {
 
   useEffect(() => {
     getFacts();
+    // Notification.requestPermission().then((result) => {
+    //   if (result === "granted") {
+    //     // randomNotification();
+    //     new Notification("TBG", {
+    //       body: "Connor is testing notifications.",
+    //       icon: boxLogo,
+    //     });
+    //   }
+    // });
   }, []);
   return (
     <div className="App-wrapper">
@@ -32,7 +42,14 @@ function App() {
         }`}
         alt="logo"
       />
-      <h3>Placeholder for the Box Game PWA</h3>
+      <h3>Connor's Progresive Web App</h3>
+      <button
+        onClick={() =>
+          (window.location.href = "https://boxgame.connormoynahan.com")
+        }
+      >
+        Go to The Box Game
+      </button>
       <h4>Here are some axoltl facts. Click my face for more.</h4>
       {factData && factData.facts}
       <br />
